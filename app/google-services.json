@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "430650444706",
+    "project_id": "moodtracker-d7211",
+    "storage_bucket": "moodtracker-d7211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430650444706:android:f9875283b813eb566600fb",
+        "android_client_info": {
+          "package_name": "com.example.moodtracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWcaTIvJkV_tQ3tKv_Ov58O0jYrr-lEo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

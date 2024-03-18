@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mood Tracker</string>
+    <string name="happy">Happy</string>
+    <string name="neutral">Neutral</string>
+    <string name="anxiety">Anxiety</string>
+    <string name="love">Love</string>
+    <string name="sad">Sad</string>
+    <string name="angry">Angry</string>
+    <string name="notes_hint">Enter your notes here</string>
+    <string name="add_mood">Add Mood</string>
+</resources>

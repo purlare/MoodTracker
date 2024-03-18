@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context=".MoodSelectionActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите свое настроение"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="18dp"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnHappy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/happy"
+            android:background="@null"
+            android:contentDescription="@string/happy" />
+
+        <ImageButton
+            android:id="@+id/btnNeutral"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/neutral"
+            android:background="@null"
+            android:contentDescription="@string/neutral" />
+
+        <ImageButton
+            android:id="@+id/btnAnxiety"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/anxiety"
+            android:background="@null"
+            android:contentDescription="@string/anxiety" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btnLove"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/love"
+            android:background="@null"
+            android:src="@drawable/love" />
+
+        <ImageButton
+            android:id="@+id/btnSad"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/sad"
+            android:background="@null"
+            android:src="@drawable/sad" />
+
+        <ImageButton
+            android:id="@+id/btnAngry"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/angry"
+            android:background="@null"
+            android:src="@drawable/angry" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etNotes"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Опишите свои чувства"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:textColor="#000000" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_marginTop="16dp"
+        android:dateTextAppearance="@style/CalendarTextAppearance"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnAddMood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить запись"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btnViewEntries"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Просмотреть все записи"
+        android:textColor="#000000" />
+
+</LinearLayout>
